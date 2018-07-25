@@ -7,6 +7,7 @@ project.xcworkspace
 .svn
 CommitHash
 Pods
+Podfile.lock
 
 LeapMobile.xcworkspace/contents.xcworkspacedata
 LeapMobile.xcworkspace/xcshareddata/LeapWebServices.xccheckout
