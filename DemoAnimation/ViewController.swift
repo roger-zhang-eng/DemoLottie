@@ -38,7 +38,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
         // Set view to full screen, aspectFill
         demoAnimation!.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         demoAnimation!.contentMode = .scaleAspectFill
-        demoAnimation!.frame = animationContainer.bounds
+        
+        demoAnimation?.bounds = CGRect(origin: CGPoint.zero, size: CGSize(width: 175, height: 200))
+        demoAnimation?.center = animationContainer.center
         // Add the Animation
         animationContainer.addSubview(demoAnimation!)
         
